@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabla ejercicio 24-10-24</title>
+</head>
+<body>
+    <h2>ejercicio formularios</h2>
+    <form action="validacion.js" method="pots">
+        <fieldset>
+            <legend>DATOS PERSONALES</legend>
+            <label for="nombre completo">Nombre Completo</label> <br>
+            <input type="text" id="id" name="nombre completo" minlength="3" required> 
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <input type="password" id="password" name="password" minlength="8" required>
+            <br>
+            <label for="edad">Edad entre 18 y 100 años</label>
+            <br>
+            <input type="number" name="edad" id="edad" min="18" max="100">
+            <br>
+            <label for="fecha_nacimiento">Fecha de nacimiento</label>
+            <br>
+            <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" required>
+            <br>
+            <label for="documento">Documento</label>
+            <br>
+            <input type="file" name="documento" id="file" required>
+
+        </fieldset>
+        <br>
+        <br> 
+        <fieldset>
+
+            <label for="sitio web">Sitio Web</label>
+            <legend>OPCIONES</legend>  
+            <br>
+            <input type="url" name="url" id="url" required>
+            <br>
+            <label for="genero">Genero</label>
+            <br>
+            <input type="checkbox" name="femenino" id="femenino" required>Femenino
+            <br>
+            <input type="checkbox" name="masculino" id="masculino" required>Masculino
+            <br>
+            <input type="checkbox" name="otro" id="otro" required>Otro
+            <br>
+            <label for="comentario">Envia tu comentario:(de 10 a 200 caracteres)</label>
+            <br>
+            <textarea name="comentario" id="comentario"></textarea>
+            <br>
+            <label for="T Y C">Aceptas los termonos y condiciones?</label>
+            <br>
+            <input type="checkbox" name="terminos y condiciones" id="checkbox" required>
+            <br>
+            <label for="enviar">?</label>
+            <input type="button" value="Enviar">
+            <input type="button" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>
