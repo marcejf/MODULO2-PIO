@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(118, 150, 255);
+}
+
+.miblog{
+    color: rgb(12, 14, 44);
+    font-family: fantasy;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 6px 6px 6px rgb(168, 94, 238);
+    background-color: rgb(179, 252, 227);
+    border-radius: 10px;
+}
+
+
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inicio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: darkblue;
+    margin: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.Articulos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: darkblue;
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px;
+}
+.Sobre-mi{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+   height: 300px;
+   background-color: black;
+   justify-content: space-between;
+   box-sizing: border-box;
+   overflow: hidden;
+
+}
+.imagen{
+    flex: 1;
+    margin: 2px;
+    padding: 3px;
+    object-fit: cover;
+    object-position: center;
+
+}
+.contenedorprincipal{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.contenedorizq{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-star;
+    margin: 20px;
+    border-radius: 5px;
+    border: 5px solid rgba(21, 21, 21, 0.756);
+    border-color: rgba(5, 29, 70, 0.756);
+    height: 400px;
+    width: 400px;
+    align-items: center;
+}
+.primerArticulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: rgba(88, 21, 67, 0.786);
+    margin: 30px;
+}
+
+.parrafo{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    height: 100px;
+}
+
+.fecha1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    justify-content: center;
+}
+.leer-mas{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:20px;
+    margin-top: auto;
+   
+}  
+ 
+.contenedorizq2{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-star;
+    margin: 20px;
+    border-radius: 5px;
+    border: 5px solid rgba(21, 21, 21, 0.756);
+    border-color: rgba(5, 29, 70, 0.756);
+    height:auto;
+    max-width: 400px;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+}    
+.segundoArticulo{
+    color: darkblue;
+    font-size: x-large;
+    text-align: center;
+
+}
+.parrafo2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+.fecha2{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin: 40px;
+    
+}
+.leer-mas2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;
+
+}
+.Contenedorderecha{
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-star;
+    margin: 20px;
+    border-radius: 5px;
+    border: 5px solid rgba(21, 21, 21, 0.756);
+    border-color: rgba(5, 29, 70, 0.756);
+    height: 400px;
+    width: 400px;
+    align-items: center;
+}
+.terminos{
+    
+        background-color: #d3d3de;
+        color: rgb(16, 15, 15); 
+        padding: 15px 32px; 
+        font-size: 16px; 
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer;
+    
+}
