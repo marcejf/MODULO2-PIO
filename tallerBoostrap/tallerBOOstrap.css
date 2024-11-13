@@ -1,0 +1,55 @@
+.miblog{
+    text-align: center;
+    color: rgb(6, 6, 245);
+    background-color: rgb(77, 200, 248);
+    font-size: xx-large;
+}
+.linkinicio{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+.imagen{
+    display: flex;
+    
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+
+    margin: 30px;
+}
+
+.bloque1{
+    border: solid 1px rgb(0, 0, 0);
+    border-color: black;
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    
+
+}
+
+.bloque3{
+    border: solid 1px rgb(0, 0, 0);
+    border-color: black;
+
+}
+
+.bloque2{
+    border: solid 1px rgb(0, 0, 0);
+    border-color: black;
+    margin: 30px;
+    flex-direction: column;
+    width: 360px;
+    height: 300px;
+    text-align: center;
+
+
+}
