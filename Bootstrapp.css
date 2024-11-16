@@ -1,0 +1,96 @@
+.container-fluid{
+    background-color: rgb(102, 163, 204);
+    font-size: larger;
+
+}
+.carousel-inner{
+    margin: 10px;
+    align-items: center;
+    align-content: center;
+
+}
+.container3{
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 13%;
+    justify-content: flex-start;
+    width: 100%;
+}
+.container3 .item {
+    background-color: lightgray; 
+    padding: 10px;
+    flex: 1; 
+}
+.card-title2{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(16, 17, 17, 0.959);
+    text-align: center;
+    text-decoration: solid;
+}
+
+.contenedor5{
+    margin: 17px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
+.card-text2{
+    color: black;
+    text-align: center;
+
+}
+
+
+.card-img-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.card2{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin: 30px;
+    display: contents;
+}
+
+.card3{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin: 30px;
+    display: contents;
+
+}
+
+.card6{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin: 30px;
+    display: contents;
+
+}
+.tituloproductos{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+/* .imagen1{
+    align-items: center;
+    display: flex;
+  justify-content: center;
+}
+ */
+.card-group{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 30px;
+}
